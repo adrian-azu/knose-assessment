@@ -1,7 +1,7 @@
 # knose-assessment
 
 
-Google Link Assessment - [Windows](https://docs.google.com/document/d/1fylMHL-RjPQuRws5OQ6CT0-JHsGhQB12/edit?usp=sharing&ouid=118433771049321081353&rtpof=true&sd=true)
+Google Link Assessment - [Google Docs](https://docs.google.com/document/d/1fylMHL-RjPQuRws5OQ6CT0-JHsGhQB12/edit?usp=sharing&ouid=118433771049321081353&rtpof=true&sd=true)
 
 ## Run Locally
 
