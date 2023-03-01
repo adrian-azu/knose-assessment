@@ -3,7 +3,7 @@
 /*
  * @params size{number}
  */
-(function loopKnose(size) {
+function loopKnose(size) {
     for (let i = 1; i <= size; i++) {
         if (i % 5 === 0) {
             console.log("Knose");
@@ -13,16 +13,15 @@
             console.log(i);
         }
     }
-
-
-})(35)
+}
+loopKnose(35)
 
 // 2. Given an integer n. Print the corresponding figure using '-' and '*' as shown in the following example.
 /*
 * @params size{number}
 */
 
-(function figurePattern(size) {
+function figurePattern(size) {
     let pattern = "";
     for (let i = 0; i < size; i++) {
         for (let j = 1; j < size - i; j++) {
@@ -34,7 +33,8 @@
         pattern += "\n";
     }
     console.log(pattern);
-})(7);
+};
+figurePattern(35)
 // 3. If you are to develop your own sorting method, how would you implement it? Given a set of integers, how will you sort them from lowest to highest?
 
 // Answer: Possibly if I will use a sorting method aside from using the built-in sorting function of a programming language, I will probably use Quick Sort for its highly efficient and widely used sorting algorithm, and it is a good choice for sorting large arrays and for applications that require fast sorting. It is also known for the approach of divide-and-conquer by selecting a pivot element from the array, partitioning the array into two sub-arrays, and recursively sorting each sub-array. Below are the implementation: 
